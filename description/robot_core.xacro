@@ -18,42 +18,49 @@
         <color rgba="0 0 0 1" />
     </material>
 
-    <!-- base_link-->
-    <link name="base_link">
+    <!--BASE
+    FOOTPRINT-->
+    <link name="base_footprint">
     </link>
 
-    <!-- chassis_link-->
-    <joint name="chassis_joint" type="fixed">
-        <parent link="base_link" />
-        <child link="chassis_link" />
-        <origin xyz="-0.125 0 0" />
+    <!--BASE
+    LINK-->
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 0.0625" />
     </joint>
 
-    <link name="chassis_link">
+    <link name="base_link">
         <visual>
-            <origin xyz="0.125 0.0 0.1225" /><!-- 0.12/2 + 0.0625-->
+            <origin xyz="0 0.0 0.06" /><!-- 0.12/2 -->
             <geometry>
                 <box size="0.25 0.18 0.12" />
             </geometry>
             <material name="white" />
         </visual>
         <collision>
-            <origin xyz="0.125 0.0 0.1225" /><!-- 0.12/2 + 0.0625-->
+            <origin xyz="0 0.0 0.06" /><!-- 0.12/2-->
             <geometry>
-                <box size="0.25 0.18 0.12" />
+                <box size="0 0.18 0.12" />
             </geometry>
             <!-- <material name="black" /> -->
         </collision>
         <xacro:inertial_box mass="0.5" x="0.3" y="0.3" z="0.15">
-            <origin xyz="0.125 0.0 0.1225" rpy="0 0 0" />
+            <origin xyz="0 0.0 0.06" rpy="0 0 0" />
         </xacro:inertial_box>
     </link>
 
-    <!-- left_wheel_back_link-->
+    <gazebo reference="base_link">
+        <material>Gazebo/Purple</material>
+    </gazebo>
+
+    <!--LEFT
+    WHEEL BACK LINK-->
     <joint name="left_wheel_back_joint" type="continuous">
-        <parent link="base_link" />
-        <child link="left_wheel_back_link" />
-        <origin xyz="-0.075 0.116 0.0625" rpy="-${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
+        <parent link="base_link" />pe="continuo <child link="left_wheel_back_link" />
+        <origin
+            xyz="-0.075 0.116 0.0" rpy="-${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
         <axis xyz="0.0 0.0 1" />
     </joint>
 
@@ -75,11 +82,16 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <!-- right_wheel_back_link-->
+    <gazebo reference="left_wheel_back_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <!--RIGHT
+    WHEEL BACK LINK-->
     <joint name="right_wheel_back_joint" type="continuous">
         <parent link="base_link" />
         <child link="right_wheel_back_link" />
-        <origin xyz="-0.075 -0.116 0.0625" rpy="${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
+        <origin xyz="-0.075 -0.116 0.0" rpy="${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
         <axis xyz="0.0 0.0 -1" />
     </joint>
 
@@ -101,11 +113,16 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <!-- left_wheel_forward_link-->
+    <gazebo reference="right_wheel_back_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <!--LEFT
+    WHEEL FOWARD LINK-->
     <joint name="left_wheel_foward_joint" type="continuous">
         <parent link="base_link" />
         <child link="left_wheel_foward_link" />
-        <origin xyz="0.075 0.116 0.0625" rpy="-${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
+        <origin xyz="0.075 0.116 0.0" rpy="-${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
         <axis xyz="0.0 0.0 1" />
     </joint>
 
@@ -127,11 +144,16 @@
         </xacro:inertial_cylinder>
     </link>
 
-    <!-- right_wheel_foward_link-->
+    <gazebo reference="left_wheel_foward_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <!--RIGHT
+    WHEEL FOWARD LINK-->
     <joint name="right_wheel_foward_joint" type="continuous">
         <parent link="base_link" />
         <child link="right_wheel_foward_link" />
-        <origin xyz="0.075 -0.116 0.0625" rpy="${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
+        <origin xyz="0.075 -0.116 0.0" rpy="${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
         <axis xyz="0.0 0.0 -1" />
     </joint>
 
@@ -153,5 +175,8 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="right_wheel_foward_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
 
 </robot>
