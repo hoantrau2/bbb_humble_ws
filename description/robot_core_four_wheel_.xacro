@@ -121,7 +121,7 @@
 
     <!--LEFT
     WHEEL FOWARD LINK-->
-    <joint name="left_wheel_foward_joint" type="continuous">
+    <joint name="left_wheel_foward_joint" type="fixed">
         <parent link="base_link" />
         <child link="left_wheel_foward_link" />
         <origin xyz="0.075 0.116 0.0" rpy="-${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
@@ -154,7 +154,7 @@
 
     <!--RIGHT
     WHEEL FOWARD LINK-->
-    <joint name="right_wheel_foward_joint" type="continuous">
+    <joint name="right_wheel_foward_joint" type="fixed">
         <parent link="base_link" />
         <child link="right_wheel_foward_link" />
         <origin xyz="0.075 -0.116 0.0" rpy="${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->

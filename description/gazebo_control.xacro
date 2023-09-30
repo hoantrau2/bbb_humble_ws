@@ -23,7 +23,7 @@
 
             <!-- OUTPUTS-->
             <odometry_frame>odom</odometry_frame>
-            <robot_base_frame>base_link</robot_base_frame><!-- standard link-->
+            <robot_base_frame>base_footprint</robot_base_frame><!-- standard link-->
 
             <publish_odom>true</publish_odom><!-- publish odom if had message "true"-->
             <publish_odom_tf>true</publish_odom_tf>
