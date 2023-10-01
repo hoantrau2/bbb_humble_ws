@@ -19,6 +19,10 @@
         <color rgba="0 0 0 1" />
     </material>
 
+    <material name="red">
+        <color rgba="1 0 0 1" />
+    </material>
+
     <!--BASE
     FOOTPRINT-->
     <link name="base_footprint">
@@ -59,10 +63,10 @@
     <!--LEFT
     WHEEL BACK LINK-->
     <joint name="left_wheel_back_joint" type="continuous">
-        <parent link="base_footprint" />
+        <parent link="base_link" />
         <child link="left_wheel_back_link" />
         <origin
-            xyz="-0.075 0.116 0.0625" rpy="-${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
+            xyz="-0.075 0.116 0.0" rpy="-${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
         <axis xyz="0.0 0.0 1" />
     </joint>
 
@@ -91,9 +95,9 @@
     <!--RIGHT
     WHEEL BACK LINK-->
     <joint name="right_wheel_back_joint" type="continuous">
-        <parent link="base_footprint" />
+        <parent link="base_link" />
         <child link="right_wheel_back_link" />
-        <origin xyz="-0.075 -0.116 0.0625" rpy="${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
+        <origin xyz="-0.075 -0.116 0.0" rpy="${pi/2} 0.0 0.0" /><!-- 116 = 90+52/2-->
         <axis xyz="0.0 0.0 -1" />
     </joint>
 
