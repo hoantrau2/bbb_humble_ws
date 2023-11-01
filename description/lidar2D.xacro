@@ -30,7 +30,7 @@
 
         <sensor name="lidar2D" type="ray">
             <pose> 0 0 0 0 0 0 </pose> <!-- origin sensor is in origin of lidar2D_frame-->
-            <visualize>true</visualize> <!-- display sensor in gazebo-->
+            <visualize>false</visualize> <!-- display sensor in gazebo-->
             <update_rate>10</update_rate> <!-- update data from sensor 10 times/sencond-->
             <ray><!-- paramettor of ray sensor-->
                 <scan>
