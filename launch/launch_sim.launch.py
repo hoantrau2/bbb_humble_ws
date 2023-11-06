@@ -30,6 +30,18 @@ def generate_launch_description():
                                    '-entity', 'BBB_robot'],
                         output='screen')
 
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["diff_cont"],
+    )
+
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_broad"],
+    )
+
     #Run the Rviz
     
 
@@ -38,4 +50,6 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
+        diff_drive_spawner,
+        joint_broad_spawner
     ])
