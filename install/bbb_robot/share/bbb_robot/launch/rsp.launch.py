@@ -1,1 +1,0 @@
-/home/ngochoan/bbb_humble_ws/src/bbb_robot/launch/rsp.launch.py
