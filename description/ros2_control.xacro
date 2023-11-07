@@ -24,9 +24,16 @@
         </joint>
     </ros2_control> -->
 
-    <ros2_control name="GazeboSystem" type="system">
+    <ros2_control name="Real_robot" type="system">
         <hardware>
-            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            <plugin>diffdrive_arduino/DiffDriveArduino</plugin>
+            <param name="left_wheel_name">left_wheel_back_joint"</param>
+            <param name="right_wheel_name">right_wheel_back_joint</param>
+            <param name="loop_rate">30</param>
+            <param name="device">/dev/ttyUSB0</param>
+            <param name="baud_rate">57600</param>
+            <param name="timeout">1000</param>
+            <param name="enc_counts_per_rev">3436</param>
         </hardware>
         <joint name="left_wheel_back_joint">
             <command_interface name="velocity">
