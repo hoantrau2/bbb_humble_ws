@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target read_data_picoW[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/read_data_picoW.dir/src/read_data_picoW.cpp.o[0m
+[100%] [32m[1mLinking CXX executable read_data_picoW[0m
+[100%] Built target read_data_picoW
+-- Install configuration: ""
+-- Installing: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/lib/communicate_cpp/read_data_picoW
+-- Set runtime path of "/home/ngochoan/bbb_humble_ws/install/communicate_cpp/lib/communicate_cpp/read_data_picoW" to ""
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/ament_index/resource_index/package_run_dependencies/communicate_cpp
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/ament_index/resource_index/parent_prefix_path/communicate_cpp
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/environment/path.sh
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/environment/path.dsv
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/local_setup.bash
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/local_setup.sh
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/local_setup.zsh
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/local_setup.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/package.dsv
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/ament_index/resource_index/packages/communicate_cpp
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/cmake/communicate_cppConfig.cmake
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/cmake/communicate_cppConfig-version.cmake
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/install/communicate_cpp/share/communicate_cpp/package.xml

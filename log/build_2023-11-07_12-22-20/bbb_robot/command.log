@@ -1,0 +1,4 @@
+Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_robot -- -j8 -l8
+Invoked command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_robot -- -j8 -l8
+Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/build/bbb_robot
+Invoked command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/build/bbb_robot
