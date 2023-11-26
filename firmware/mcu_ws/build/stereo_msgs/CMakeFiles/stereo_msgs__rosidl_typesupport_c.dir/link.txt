@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libstereo_msgs__rosidl_typesupport_c.a CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libstereo_msgs__rosidl_typesupport_c.a

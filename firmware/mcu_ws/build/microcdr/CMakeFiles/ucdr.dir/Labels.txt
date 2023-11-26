@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr-complete.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule

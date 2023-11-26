@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.a CMakeFiles/unique_identifier_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/unique_identifier_msgs/msg/detail/microxrcedds/uuid__type_support_c.c.obj
+/usr/bin/arm-none-eabi-ranlib libunique_identifier_msgs__rosidl_typesupport_microxrcedds_c.a

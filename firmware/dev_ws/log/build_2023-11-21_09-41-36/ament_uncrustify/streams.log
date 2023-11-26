@@ -1,0 +1,43 @@
+[0.553s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/uncrustify_vendor:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint CMAKE_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/uncrustify_vendor PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed
+[0.721s] running egg_info
+[0.721s] creating ../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[0.722s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[0.722s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[0.722s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[0.722s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[0.722s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[0.722s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.724s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.724s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.725s] running build
+[0.725s] running build_py
+[0.725s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build
+[0.725s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib
+[0.725s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.725s] copying ament_uncrustify/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.725s] copying ament_uncrustify/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.725s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.725s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.725s] running install
+[0.725s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.726s]   warnings.warn(
+[0.726s] running install_lib
+[0.726s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify
+[0.726s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify
+[0.726s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify
+[0.726s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify/configuration
+[0.726s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify/configuration
+[0.727s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify/__init__.py to __init__.cpython-310.pyc
+[0.727s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify/main.py to main.cpython-310.pyc
+[0.729s] running install_data
+[0.729s] copying package.xml -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_uncrustify
+[0.730s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index
+[0.730s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index
+[0.730s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.730s] copying resource/ament_uncrustify -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.730s] running install_egg_info
+[0.731s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages/ament_uncrustify-0.12.9-py3.10.egg-info
+[0.732s] running install_scripts
+[0.748s] Installing ament_uncrustify script to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/bin
+[0.748s] writing list of installed files to '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/install.log'
+[0.766s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/uncrustify_vendor:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint CMAKE_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/uncrustify_vendor PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed

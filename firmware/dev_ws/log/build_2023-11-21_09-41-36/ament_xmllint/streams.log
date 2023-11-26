@@ -1,0 +1,42 @@
+[1.947s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_xmllint': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/install.log --single-version-externally-managed
+[2.248s] running egg_info
+[2.248s] creating ../../../build/ament_xmllint/ament_xmllint.egg-info
+[2.248s] writing ../../../build/ament_xmllint/ament_xmllint.egg-info/PKG-INFO
+[2.249s] writing dependency_links to ../../../build/ament_xmllint/ament_xmllint.egg-info/dependency_links.txt
+[2.249s] writing entry points to ../../../build/ament_xmllint/ament_xmllint.egg-info/entry_points.txt
+[2.249s] writing requirements to ../../../build/ament_xmllint/ament_xmllint.egg-info/requires.txt
+[2.249s] writing top-level names to ../../../build/ament_xmllint/ament_xmllint.egg-info/top_level.txt
+[2.250s] writing manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.253s] reading manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.255s] writing manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.255s] running build
+[2.255s] running build_py
+[2.255s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build
+[2.255s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib
+[2.255s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.255s] copying ament_xmllint/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.256s] copying ament_xmllint/pytest_marker.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.256s] copying ament_xmllint/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.256s] running install
+[2.256s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.256s]   warnings.warn(
+[2.257s] running install_lib
+[2.258s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.258s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.258s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint/pytest_marker.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.258s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.259s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint/__init__.py to __init__.cpython-310.pyc
+[2.259s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[2.259s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint/main.py to main.cpython-310.pyc
+[2.262s] running install_data
+[2.262s] copying package.xml -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/share/ament_xmllint
+[2.262s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index
+[2.263s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index/resource_index
+[2.263s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index/resource_index/packages
+[2.263s] copying resource/ament_xmllint -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index/resource_index/packages
+[2.263s] running install_egg_info
+[2.265s] Copying ../../../build/ament_xmllint/ament_xmllint.egg-info to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint-0.12.9-py3.10.egg-info
+[2.267s] running install_scripts
+[2.299s] Installing ament_xmllint script to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/bin
+[2.299s] writing list of installed files to '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/install.log'
+[2.454s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_xmllint' returned '0': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_xmllint/install.log --single-version-externally-managed

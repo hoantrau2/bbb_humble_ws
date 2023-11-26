@@ -1,0 +1,5 @@
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/DiagnosticArray.idl
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/DiagnosticStatus.idl
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/KeyValue.idl
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:srv/AddDiagnostics.idl
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:srv/SelfTest.idl

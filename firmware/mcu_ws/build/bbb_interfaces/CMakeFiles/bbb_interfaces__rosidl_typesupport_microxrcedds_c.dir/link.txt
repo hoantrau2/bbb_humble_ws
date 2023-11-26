@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libbbb_interfaces__rosidl_typesupport_microxrcedds_c.a CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/bbb_interfaces/msg/detail/microxrcedds/bbb__type_support_c.c.obj
+/usr/bin/arm-none-eabi-ranlib libbbb_interfaces__rosidl_typesupport_microxrcedds_c.a

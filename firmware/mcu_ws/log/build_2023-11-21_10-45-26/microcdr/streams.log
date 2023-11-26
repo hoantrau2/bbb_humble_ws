@@ -1,0 +1,165 @@
+[0.493s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install
+[0.878s] Not searching for unused variables given on the command line.
+[0.880s] -- The C compiler identification is GNU 10.3.1
+[0.880s] -- Detecting C compiler ABI info
+[0.880s] -- Detecting C compiler ABI info - done
+[0.881s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+[0.881s] -- Detecting C compile features
+[0.881s] -- Detecting C compile features - done
+[0.886s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.886s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.886s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.886s] Call Stack (most recent call first):
+[0.886s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.886s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[0.886s]   CMakeLists.txt:53 (project)
+[0.886s] 
+[0.886s] [0m
+[0.886s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.886s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.886s] Call Stack (most recent call first):
+[0.886s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.887s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[0.887s]   CMakeLists.txt:53 (project)
+[0.888s] 
+[0.888s] [0m
+[0.888s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.888s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.888s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.888s] Call Stack (most recent call first):
+[0.888s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.888s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.888s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeTmp/CMakeLists.txt:4 (project)
+[0.889s] 
+[0.889s] [0m
+[0.889s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.889s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.890s] Call Stack (most recent call first):
+[0.890s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.890s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.890s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeTmp/CMakeLists.txt:4 (project)
+[0.890s] 
+[0.890s] [0m
+[0.956s] -- The CXX compiler identification is GNU 10.3.1
+[0.967s] -- Detecting CXX compiler ABI info
+[0.972s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.972s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.973s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.973s] Call Stack (most recent call first):
+[0.973s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.973s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.973s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeTmp/CMakeLists.txt:4 (project)
+[0.973s] 
+[0.973s] [0m
+[0.973s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.973s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.973s] Call Stack (most recent call first):
+[0.973s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.974s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.974s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeTmp/CMakeLists.txt:4 (project)
+[0.974s] 
+[0.974s] [0m
+[1.110s] -- Detecting CXX compiler ABI info - done
+[1.118s] -- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+[1.119s] -- Detecting CXX compile features
+[1.119s] -- Detecting CXX compile features - done
+[1.136s] -- Configuring done
+[1.136s] -- Generating done
+[1.137s] -- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr
+[1.208s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install
+[1.209s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr -- -j8 -l8
+[1.234s] /usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[1.259s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr//CMakeFiles/progress.marks
+[1.269s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.271s] gmake[1]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.271s] /usr/bin/gmake  -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/depend
+[1.273s] gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.273s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/DependInfo.cmake --color=
+[1.284s] gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.284s] /usr/bin/gmake  -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/build
+[1.286s] gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.295s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[1.296s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR
+[1.306s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr
+[1.323s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix
+[1.327s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp
+[1.338s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+[1.352s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src
+[1.365s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+[1.376s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir
+[1.396s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[1.406s] /usr/bin/cmake -E echo_append
+[1.408s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download
+[1.430s] [ 37%] [34m[1mNo update step for 'ucdr'[0m
+[1.431s] /usr/bin/cmake -E echo_append
+[1.446s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update
+[1.463s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[1.464s] /usr/bin/cmake -E echo_append
+[1.472s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch
+[1.485s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[1.486s] /usr/bin/cmake "-GUnix Makefiles" -C/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR
+[1.492s] loading initial cache file /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[1.492s] Re-run cmake no build system arguments
+[1.492s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[1.497s] -- Configuring done
+[1.500s] -- Generating done
+[1.500s] -- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr
+[1.502s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure
+[1.515s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[1.515s] /usr/bin/gmake
+[1.516s] gmake[3]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.516s] /usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[1.523s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr//CMakeFiles/progress.marks
+[1.530s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.531s] gmake[4]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.531s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/depend
+[1.532s] gmake[5]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.532s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake --color=
+[1.542s] gmake[5]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.542s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/build
+[1.544s] gmake[5]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[1.553s] [ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj[0m
+[1.554s] /usr/bin/arm-none-eabi-gcc  -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/basic.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/basic.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/basic.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/basic.c
+[1.554s] [ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.obj[0m
+[1.556s] /usr/bin/arm-none-eabi-gcc  -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/common.c.obj -MF CMakeFiles/microcdr.dir/src/c/common.c.obj.d -o CMakeFiles/microcdr.dir/src/c/common.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/common.c
+[1.558s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj[0m
+[1.560s] /usr/bin/arm-none-eabi-gcc  -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/string.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/string.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/string.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/string.c
+[1.560s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj[0m
+[1.565s] /usr/bin/arm-none-eabi-gcc  -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/sequence.c
+[1.565s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj[0m
+[1.566s] /usr/bin/arm-none-eabi-gcc  -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/array.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/array.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/array.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/array.c
+[2.450s] [100%] [32m[1mLinking C static library libmicrocdr.a[0m
+[2.465s] /usr/bin/cmake -P CMakeFiles/microcdr.dir/cmake_clean_target.cmake
+[2.486s] /usr/bin/cmake -E cmake_link_script CMakeFiles/microcdr.dir/link.txt --verbose=1
+[2.520s] /usr/bin/arm-none-eabi-ar qc libmicrocdr.a CMakeFiles/microcdr.dir/src/c/common.c.obj CMakeFiles/microcdr.dir/src/c/types/basic.c.obj CMakeFiles/microcdr.dir/src/c/types/string.c.obj CMakeFiles/microcdr.dir/src/c/types/array.c.obj CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+[2.569s] /usr/bin/arm-none-eabi-ranlib libmicrocdr.a
+[2.622s] gmake[5]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[2.646s] [100%] Built target microcdr
+[2.656s] gmake[4]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[2.656s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[2.673s] gmake[3]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[2.673s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build
+[2.736s] [34m[1mNo install step for 'ucdr'[0m
+[2.737s] /usr/bin/cmake -E echo_append
+[2.748s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install
+[2.768s] [34m[1mCompleted 'ucdr'[0m
+[2.769s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles
+[2.778s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr-complete
+[2.785s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-done
+[2.793s] gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[2.797s] Built target ucdr
+[2.798s] gmake[1]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr'
+[2.798s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[3.281s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr -- -j8 -l8
+[3.703s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr
+[3.710s] -- Install configuration: "Release"
+[3.710s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/libmicrocdr.a
+[3.710s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/ucdr
+[3.710s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/ucdr/microcdr.h
+[3.710s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/ucdr/visibility.h
+[3.710s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/ucdr/config.h
+[3.710s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+[3.710s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-release.cmake
+[3.711s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+[3.711s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[3.717s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/microcdr

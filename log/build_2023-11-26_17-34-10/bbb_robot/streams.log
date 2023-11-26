@@ -1,0 +1,10 @@
+[0.203s] Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_robot -- -j8 -l8
+[0.246s] Invoked command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_robot -- -j8 -l8
+[0.313s] Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/build/bbb_robot
+[0.325s] -- Install configuration: ""
+[0.325s] -- Up-to-date: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config
+[0.325s] -- Up-to-date: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description
+[0.325s] -- Up-to-date: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/launch
+[0.326s] -- Up-to-date: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/worlds
+[0.326s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/package.dsv
+[0.336s] Invoked command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/build/bbb_robot

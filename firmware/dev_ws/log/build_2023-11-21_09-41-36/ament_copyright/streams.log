@@ -1,0 +1,114 @@
+[0.841s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed
+[1.036s] running egg_info
+[1.036s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[1.036s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[1.036s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[1.036s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[1.036s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[1.036s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[1.036s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.039s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.039s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.040s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build
+[1.040s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib
+[1.040s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.040s] copying ament_copyright/crawler.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.040s] copying ament_copyright/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.040s] copying ament_copyright/pytest_marker.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.040s] copying ament_copyright/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.040s] copying ament_copyright/copyright_names.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.040s] copying ament_copyright/licenses.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.040s] copying ament_copyright/parser.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.041s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.041s] copying ament_copyright/template/bsd_2clause_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.041s] copying ament_copyright/template/gplv3_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.041s] copying ament_copyright/template/lgplv3_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.041s] copying ament_copyright/template/bsd2_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/mit_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/mit0_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/bsd2_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/mit_header_0.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/lgplv3_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/apache2_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/mit0_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.042s] copying ament_copyright/template/apache2_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/bsd2_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/boost1_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/boost1_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/mit_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/gplv3_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/lgplv3_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/bsd_2clause_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/bsd_3clause_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/bsd_3clause_header_0.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/bsd_3clause_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.043s] copying ament_copyright/template/bsd_2clause_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.044s] copying ament_copyright/template/boost1_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.044s] copying ament_copyright/template/mit0_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.044s] copying ament_copyright/template/gplv3_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.044s] copying ament_copyright/template/apache2_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.044s] copying ament_copyright/template/mit_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.044s] copying ament_copyright/template/bsd_3clause_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.045s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.045s]   warnings.warn(
+[1.045s] running install
+[1.045s] running install_lib
+[1.045s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.045s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/parser.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[1.046s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.046s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header_0.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.047s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header_0.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_contributing.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.048s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.049s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.049s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.049s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header.txt -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[1.049s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/crawler.py to crawler.cpython-310.pyc
+[1.050s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/__init__.py to __init__.cpython-310.pyc
+[1.051s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-310.pyc
+[1.051s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/main.py to main.cpython-310.pyc
+[1.053s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-310.pyc
+[1.053s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/licenses.py to licenses.cpython-310.pyc
+[1.053s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/parser.py to parser.cpython-310.pyc
+[1.056s] running install_data
+[1.056s] copying package.xml -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/share/ament_copyright
+[1.057s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/share/ament_index
+[1.057s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index
+[1.057s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[1.057s] copying resource/ament_copyright -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[1.057s] running install_egg_info
+[1.058s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright-0.12.9-py3.10.egg-info
+[1.059s] running install_scripts
+[1.076s] Installing ament_copyright script to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/bin
+[1.078s] writing list of installed files to '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/install.log'
+[1.211s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint PATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed

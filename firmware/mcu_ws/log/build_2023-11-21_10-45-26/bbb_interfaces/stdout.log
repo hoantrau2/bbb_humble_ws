@@ -1,0 +1,166 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 3.1.5 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces
+/usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/depend
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[  8%] [34m[1mGenerating C code for ROS interfaces[0m
+/usr/bin/python3.10 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_generator_c__arguments.json
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[ 16%] [32mBuilding C object CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bbb_interfaces/msg/detail/bbb__functions.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"bbb_interfaces\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_generator_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bbb_interfaces/msg/detail/bbb__functions.c.obj -MF CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bbb_interfaces/msg/detail/bbb__functions.c.obj.d -o CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bbb_interfaces/msg/detail/bbb__functions.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_generator_c/bbb_interfaces/msg/detail/bbb__functions.c
+[ 25%] [32m[1mLinking C static library libbbb_interfaces__rosidl_generator_c.a[0m
+/usr/bin/cmake -P CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libbbb_interfaces__rosidl_generator_c.a CMakeFiles/bbb_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bbb_interfaces/msg/detail/bbb__functions.c.obj
+/usr/bin/arm-none-eabi-ranlib libbbb_interfaces__rosidl_generator_c.a
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[ 25%] Built target bbb_interfaces__rosidl_generator_c
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/depend
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/depend
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/depend
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+/usr/bin/python3.10 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_introspection_c__arguments.json
+[ 41%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+/usr/bin/python3.10 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c --generator-arguments-file /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_microxrcedds_c__arguments.json
+[ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+/usr/bin/python3.10 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_introspection_c rosidl_typesupport_microxrcedds_c
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[ 58%] [32mBuilding C object CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bbb_interfaces/msg/detail/bbb__type_support.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"bbb_interfaces\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_introspection_c -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_generator_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_introspection_c -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bbb_interfaces/msg/detail/bbb__type_support.c.obj -MF CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bbb_interfaces/msg/detail/bbb__type_support.c.obj.d -o CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bbb_interfaces/msg/detail/bbb__type_support.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_introspection_c/bbb_interfaces/msg/detail/bbb__type_support.c
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/DependInfo.cmake --color=
+[ 66%] [32m[1mLinking C static library libbbb_interfaces__rosidl_typesupport_introspection_c.a[0m
+/usr/bin/cmake -P CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_target.cmake
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/build
+/usr/bin/cmake -E cmake_link_script CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=1
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/arm-none-eabi-ar qc libbbb_interfaces__rosidl_typesupport_introspection_c.a CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bbb_interfaces/msg/detail/bbb__type_support.c.obj
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[ 75%] [32mBuilding C object CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/bbb_interfaces/msg/detail/microxrcedds/bbb__type_support_c.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"bbb_interfaces\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_generator_c -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_microxrcedds_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rmw -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu99 -MD -MT CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/bbb_interfaces/msg/detail/microxrcedds/bbb__type_support_c.c.obj -MF CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/bbb_interfaces/msg/detail/microxrcedds/bbb__type_support_c.c.obj.d -o CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/bbb_interfaces/msg/detail/microxrcedds/bbb__type_support_c.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_microxrcedds_c/bbb_interfaces/msg/detail/microxrcedds/bbb__type_support_c.c
+[ 83%] [32mBuilding CXX object CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bbb_interfaces/msg/bbb__type_support.cpp.obj[0m
+/usr/bin/arm-none-eabi-g++ -DROSIDL_TYPESUPPORT_STATIC_TYPESUPPORT -DROS_PACKAGE_NAME=\"bbb_interfaces\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_generator_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_c -std=c++14 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -fno-rtti -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -MD -MT CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bbb_interfaces/msg/bbb__type_support.cpp.obj -MF CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bbb_interfaces/msg/bbb__type_support.cpp.obj.d -o CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bbb_interfaces/msg/bbb__type_support.cpp.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/rosidl_typesupport_c/bbb_interfaces/msg/bbb__type_support.cpp
+/usr/bin/arm-none-eabi-ranlib libbbb_interfaces__rosidl_typesupport_introspection_c.a
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[ 91%] [32m[1mLinking CXX static library libbbb_interfaces__rosidl_typesupport_c.a[0m
+/usr/bin/cmake -P CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/link.txt --verbose=1
+[ 91%] Built target bbb_interfaces__rosidl_typesupport_introspection_c
+/usr/bin/arm-none-eabi-ar qc libbbb_interfaces__rosidl_typesupport_c.a CMakeFiles/bbb_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bbb_interfaces/msg/bbb__type_support.cpp.obj
+[100%] [32m[1mLinking C static library libbbb_interfaces__rosidl_typesupport_microxrcedds_c.a[0m
+/usr/bin/cmake -P CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/cmake_clean_target.cmake
+/usr/bin/arm-none-eabi-ranlib libbbb_interfaces__rosidl_typesupport_c.a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/link.txt --verbose=1
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/arm-none-eabi-ar qc libbbb_interfaces__rosidl_typesupport_microxrcedds_c.a CMakeFiles/bbb_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/bbb_interfaces/msg/detail/microxrcedds/bbb__type_support_c.c.obj
+/usr/bin/arm-none-eabi-ranlib libbbb_interfaces__rosidl_typesupport_microxrcedds_c.a
+[100%] Built target bbb_interfaces__rosidl_typesupport_c
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[100%] Built target bbb_interfaces__rosidl_typesupport_microxrcedds_c
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces.dir/build.make CMakeFiles/bbb_interfaces.dir/depend
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/CMakeFiles/bbb_interfaces.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/gmake  -f CMakeFiles/bbb_interfaces.dir/build.make CMakeFiles/bbb_interfaces.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+gmake[2]: Nothing to be done for 'CMakeFiles/bbb_interfaces.dir/build'.
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+[100%] Built target bbb_interfaces
+gmake[1]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces'
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/bbb_interfaces/CMakeFiles 0
+-- Install configuration: "Release"
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/rosidl_interfaces/bbb_interfaces
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/bbb.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail/bbb__type_support.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail/bbb__struct.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail/bbb__functions.c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail/bbb__functions.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/environment/library_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/environment/library_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/libbbb_interfaces__rosidl_generator_c.a
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail/bbb__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/bbb_interfaces/msg/detail/bbb__type_support.c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/libbbb_interfaces__rosidl_typesupport_introspection_c.a
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/msg
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/msg/detail
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/msg/detail/bbb__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/msg/detail/microxrcedds
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/bbb_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/libbbb_interfaces__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/libbbb_interfaces__rosidl_typesupport_c.a
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/msg/Bbb.idl
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/msg/Bbb.msg
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/bbb_interfaces
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/bbb_interfaces
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/environment/path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/environment/path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/local_setup.bash
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/local_setup.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/local_setup.zsh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/local_setup.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/package.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/bbb_interfaces
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/export_bbb_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/export_bbb_interfaces__rosidl_generator_cExport-release.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/bbb_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/bbb_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/bbb_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/bbb_interfaces__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/bbb_interfacesConfig.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/cmake/bbb_interfacesConfig-version.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/bbb_interfaces/package.xml
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/bbb_interfaces/create_fwws.sh

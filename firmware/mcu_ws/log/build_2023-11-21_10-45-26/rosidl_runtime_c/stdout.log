@@ -1,0 +1,86 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rcutils: 5.1.4 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake)
+-- Found rosidl_typesupport_interface: 3.1.5 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_typesupport_interface/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c
+/usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+/usr/bin/gmake  -f CMakeFiles/rosidl_runtime_c.dir/build.make CMakeFiles/rosidl_runtime_c.dir/depend
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+/usr/bin/gmake  -f CMakeFiles/rosidl_runtime_c.dir/build.make CMakeFiles/rosidl_runtime_c.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+[ 14%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.obj[0m
+[ 42%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.obj[0m
+[ 42%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"rosidl_runtime_c\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.obj -MF CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.obj.d -o CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/message_type_support.c
+[ 57%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"rosidl_runtime_c\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.obj -MF CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.obj.d -o CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/sequence_bound.c
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"rosidl_runtime_c\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.obj -MF CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.obj.d -o CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/string_functions.c
+[ 71%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.obj[0m
+[ 85%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"rosidl_runtime_c\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.obj -MF CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.obj.d -o CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/primitives_sequence_functions.c
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"rosidl_runtime_c\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.obj -MF CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.obj.d -o CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/service_type_support.c
+/usr/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"rosidl_runtime_c\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -std=gnu11 -MD -MT CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.obj -MF CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.obj.d -o CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/u16string_functions.c
+[100%] [32m[1mLinking C static library librosidl_runtime_c.a[0m
+/usr/bin/cmake -P CMakeFiles/rosidl_runtime_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rosidl_runtime_c.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc librosidl_runtime_c.a CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.obj CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.obj CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.obj CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.obj CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.obj CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.obj
+/usr/bin/arm-none-eabi-ranlib librosidl_runtime_c.a
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+[100%] Built target rosidl_runtime_c
+gmake[1]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles 0
+-- Install configuration: "Release"
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/library_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/library_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_runtime_c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string_bound.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/u16string_functions.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/librosidl_runtime_c.a
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_runtime_c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_runtime_c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/ament_prefix_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/ament_prefix_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.bash
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.zsh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/package.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_runtime_c
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport-release.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig-version.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/package.xml

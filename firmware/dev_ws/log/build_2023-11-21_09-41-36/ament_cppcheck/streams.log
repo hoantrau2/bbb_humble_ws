@@ -1,0 +1,39 @@
+[1.493s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_cppcheck': PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed
+[1.673s] running egg_info
+[1.674s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[1.674s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[1.674s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[1.674s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[1.674s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[1.674s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[1.675s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.676s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.678s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.678s] running build
+[1.678s] running build_py
+[1.678s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build
+[1.678s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build/lib
+[1.678s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.678s] copying ament_cppcheck/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.679s] copying ament_cppcheck/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.679s] running install
+[1.679s] running install_lib
+[1.679s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.679s]   warnings.warn(
+[1.679s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[1.679s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[1.679s] copying /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[1.680s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck/__init__.py to __init__.cpython-310.pyc
+[1.680s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck/main.py to main.cpython-310.pyc
+[1.682s] running install_data
+[1.682s] copying package.xml -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_cppcheck
+[1.683s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index
+[1.683s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index
+[1.683s] creating /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[1.683s] copying resource/ament_cppcheck -> /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[1.683s] running install_egg_info
+[1.684s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck-0.12.9-py3.10.egg-info
+[1.685s] running install_scripts
+[1.703s] Installing ament_cppcheck script to /home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/bin
+[1.704s] writing list of installed files to '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/install.log'
+[1.825s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/build install --record /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed

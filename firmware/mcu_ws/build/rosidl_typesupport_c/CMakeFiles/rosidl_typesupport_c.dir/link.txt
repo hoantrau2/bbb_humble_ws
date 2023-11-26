@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc librosidl_typesupport_c.a CMakeFiles/rosidl_typesupport_c.dir/src/identifier.c.obj CMakeFiles/rosidl_typesupport_c.dir/src/message_type_support_dispatch.cpp.obj CMakeFiles/rosidl_typesupport_c.dir/src/service_type_support_dispatch.cpp.obj
+/usr/bin/arm-none-eabi-ranlib librosidl_typesupport_c.a

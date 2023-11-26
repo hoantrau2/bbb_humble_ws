@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libstereo_msgs__rosidl_generator_c.a CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__functions.c.obj
+/usr/bin/arm-none-eabi-ranlib libstereo_msgs__rosidl_generator_c.a

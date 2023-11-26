@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc librclc_lifecycle.a CMakeFiles/rclc_lifecycle.dir/src/rclc_lifecycle/rclc_lifecycle.c.obj
+/usr/bin/arm-none-eabi-ranlib librclc_lifecycle.a

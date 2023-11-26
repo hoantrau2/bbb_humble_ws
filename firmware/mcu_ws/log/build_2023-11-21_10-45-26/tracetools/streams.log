@@ -1,0 +1,107 @@
+[0.414s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/tracetools/tracetools --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DTRACETOOLS_DISABLED=ON -DTRACETOOLS_STATUS_CHECKING_TOOL=OFF -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install
+[0.806s] Not searching for unused variables given on the command line.
+[0.806s] -- The C compiler identification is GNU 10.3.1
+[0.806s] -- The CXX compiler identification is GNU 10.3.1
+[0.806s] -- Detecting C compiler ABI info
+[0.806s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.806s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.806s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.806s] Call Stack (most recent call first):
+[0.806s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.806s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[0.806s]   CMakeLists.txt:2 (project)
+[0.807s] 
+[0.807s] [0m
+[0.807s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.807s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.807s] Call Stack (most recent call first):
+[0.807s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.807s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[0.807s]   CMakeLists.txt:2 (project)
+[0.807s] 
+[0.807s] [0m
+[0.807s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.807s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.808s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.808s] Call Stack (most recent call first):
+[0.808s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.808s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.808s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[0.808s] 
+[0.808s] [0m
+[0.808s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.808s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.808s] Call Stack (most recent call first):
+[0.808s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.808s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.809s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[0.809s] 
+[0.809s] [0m
+[0.880s] -- Detecting C compiler ABI info - done
+[0.891s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+[0.891s] -- Detecting C compile features
+[0.892s] -- Detecting C compile features - done
+[0.897s] -- Detecting CXX compiler ABI info
+[0.898s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.898s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.898s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.898s] Call Stack (most recent call first):
+[0.898s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.898s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.898s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[0.898s] 
+[0.898s] [0m
+[0.899s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.899s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.899s] Call Stack (most recent call first):
+[0.899s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.899s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.899s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[0.899s] 
+[0.899s] [0m
+[1.032s] -- Detecting CXX compiler ABI info - done
+[1.033s] -- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+[1.033s] -- Detecting CXX compile features
+[1.034s] -- Detecting CXX compile features - done
+[1.036s] -- Found ament_cmake_ros: 0.10.0 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[1.325s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.627s] -- Configuring done
+[1.632s] -- Generating done
+[1.634s] -- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools
+[1.875s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/tracetools/tracetools --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DTRACETOOLS_DISABLED=ON -DTRACETOOLS_STATUS_CHECKING_TOOL=OFF -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install
+[1.875s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools -- -j8 -l8
+[1.899s] /usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/tracetools/tracetools -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools --check-build-system CMakeFiles/Makefile.cmake 0
+[1.933s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools//CMakeFiles/progress.marks
+[1.944s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.965s] gmake[1]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools'
+[1.965s] gmake[1]: Nothing to be done for 'all'.
+[1.965s] gmake[1]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools'
+[1.965s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools/CMakeFiles 0
+[1.988s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools -- -j8 -l8
+[2.477s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools
+[2.673s] -- Install configuration: "Release"
+[2.673s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools
+[2.673s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools/tracetools
+[2.673s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools/tracetools/tracetools.h
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools/tracetools/visibility_control.hpp
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools/tracetools/config.h
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools/tracetools/utils.hpp
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/tracetools
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/tracetools
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/environment/ament_prefix_path.sh
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/environment/ament_prefix_path.dsv
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/environment/path.sh
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/environment/path.dsv
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/local_setup.bash
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/local_setup.sh
+[2.674s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/local_setup.zsh
+[2.675s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/local_setup.dsv
+[2.675s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/package.dsv
+[2.675s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/tracetools
+[2.675s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/cmake/tracetools_exportExport.cmake
+[2.675s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake
+[2.676s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.676s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/cmake/tracetoolsConfig.cmake
+[2.676s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/cmake/tracetoolsConfig-version.cmake
+[2.676s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/tracetools/package.xml
+[2.794s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/tracetools

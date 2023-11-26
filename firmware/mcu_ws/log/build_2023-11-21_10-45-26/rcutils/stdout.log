@@ -1,0 +1,207 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_python: 1.3.6 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils
+/usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rcutils.dir/build.make CMakeFiles/ament_cmake_python_copy_rcutils.dir/depend
+/usr/bin/gmake  -f CMakeFiles/rcutils.dir/build.make CMakeFiles/rcutils.dir/depend
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_copy_rcutils.dir/DependInfo.cmake --color=
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+[  3%] [34m[1mExpanding logging_macros.h.em[0m
+/usr/bin/cmake -E make_directory include/rcutils
+/usr/bin/python3.10 -c "import em;em.invoke(   [     '-o', 'include/rcutils/logging_macros.h',     '-D', 'rcutils_module_path=\"/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils\"',     '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/resource/logging_macros.h.em'   ] )"
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rcutils.dir/build.make CMakeFiles/ament_cmake_python_copy_rcutils.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/cmake -E copy_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/ament_cmake_python/rcutils/rcutils
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+[  3%] Built target ament_cmake_python_copy_rcutils
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/depend
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/ament_cmake_python/rcutils && /usr/bin/python3.10 setup.py egg_info
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/rcutils.dir/build.make CMakeFiles/rcutils.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+[  6%] [32mBuilding C object CMakeFiles/rcutils.dir/src/array_list.c.obj[0m
+[ 10%] [32mBuilding C object CMakeFiles/rcutils.dir/src/char_array.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/array_list.c.obj -MF CMakeFiles/rcutils.dir/src/array_list.c.obj.d -o CMakeFiles/rcutils.dir/src/array_list.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/array_list.c
+[ 13%] [32mBuilding C object CMakeFiles/rcutils.dir/src/allocator.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/char_array.c.obj -MF CMakeFiles/rcutils.dir/src/char_array.c.obj.d -o CMakeFiles/rcutils.dir/src/char_array.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/char_array.c
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/allocator.c.obj -MF CMakeFiles/rcutils.dir/src/allocator.c.obj.d -o CMakeFiles/rcutils.dir/src/allocator.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c
+[ 17%] [32mBuilding C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcutils.dir/src/env.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/env.c.obj -MF CMakeFiles/rcutils.dir/src/env.c.obj.d -o CMakeFiles/rcutils.dir/src/env.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/env.c
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj -MF CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj.d -o CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/cmdline_parser.c
+[ 24%] [32mBuilding C object CMakeFiles/rcutils.dir/src/error_handling.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/error_handling.c.obj -MF CMakeFiles/rcutils.dir/src/error_handling.c.obj.d -o CMakeFiles/rcutils.dir/src/error_handling.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c
+[ 27%] [32mBuilding C object CMakeFiles/rcutils.dir/src/filesystem.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/filesystem.c.obj -MF CMakeFiles/rcutils.dir/src/filesystem.c.obj.d -o CMakeFiles/rcutils.dir/src/filesystem.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c
+[ 31%] [32mBuilding C object CMakeFiles/rcutils.dir/src/find.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/find.c.obj -MF CMakeFiles/rcutils.dir/src/find.c.obj.d -o CMakeFiles/rcutils.dir/src/find.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/find.c
+[ 34%] [32mBuilding C object CMakeFiles/rcutils.dir/src/hash_map.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/hash_map.c.obj -MF CMakeFiles/rcutils.dir/src/hash_map.c.obj.d -o CMakeFiles/rcutils.dir/src/hash_map.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c
+[ 37%] [32mBuilding C object CMakeFiles/rcutils.dir/src/format_string.c.obj[0m
+[ 41%] [32mBuilding C object CMakeFiles/rcutils.dir/src/logging.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/format_string.c.obj -MF CMakeFiles/rcutils.dir/src/format_string.c.obj.d -o CMakeFiles/rcutils.dir/src/format_string.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/format_string.c
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/logging.c.obj -MF CMakeFiles/rcutils.dir/src/logging.c.obj.d -o CMakeFiles/rcutils.dir/src/logging.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/logging.c
+[ 44%] [32mBuilding C object CMakeFiles/rcutils.dir/src/process.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/process.c.obj -MF CMakeFiles/rcutils.dir/src/process.c.obj.d -o CMakeFiles/rcutils.dir/src/process.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/process.c
+[ 48%] [32mBuilding C object CMakeFiles/rcutils.dir/src/qsort.c.obj[0m
+[ 51%] [32mBuilding C object CMakeFiles/rcutils.dir/src/shared_library.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/qsort.c.obj -MF CMakeFiles/rcutils.dir/src/qsort.c.obj.d -o CMakeFiles/rcutils.dir/src/qsort.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/qsort.c
+[ 55%] [32mBuilding C object CMakeFiles/rcutils.dir/src/repl_str.c.obj[0m
+[ 58%] [32mBuilding C object CMakeFiles/rcutils.dir/src/snprintf.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/repl_str.c.obj -MF CMakeFiles/rcutils.dir/src/repl_str.c.obj.d -o CMakeFiles/rcutils.dir/src/repl_str.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/repl_str.c
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/shared_library.c.obj -MF CMakeFiles/rcutils.dir/src/shared_library.c.obj.d -o CMakeFiles/rcutils.dir/src/shared_library.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/snprintf.c.obj -MF CMakeFiles/rcutils.dir/src/snprintf.c.obj.d -o CMakeFiles/rcutils.dir/src/snprintf.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/snprintf.c
+running egg_info
+creating rcutils.egg-info
+writing rcutils.egg-info/PKG-INFO
+writing dependency_links to rcutils.egg-info/dependency_links.txt
+writing top-level names to rcutils.egg-info/top_level.txt
+writing manifest file 'rcutils.egg-info/SOURCES.txt'
+reading manifest file 'rcutils.egg-info/SOURCES.txt'
+writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[ 62%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strcasecmp.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/strcasecmp.c.obj -MF CMakeFiles/rcutils.dir/src/strcasecmp.c.obj.d -o CMakeFiles/rcutils.dir/src/strcasecmp.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/strcasecmp.c
+[ 65%] [32mBuilding C object CMakeFiles/rcutils.dir/src/split.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/split.c.obj -MF CMakeFiles/rcutils.dir/src/split.c.obj.d -o CMakeFiles/rcutils.dir/src/split.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/split.c
+[ 68%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strerror.c.obj[0m
+[ 72%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_array.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/strerror.c.obj -MF CMakeFiles/rcutils.dir/src/strerror.c.obj.d -o CMakeFiles/rcutils.dir/src/strerror.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/strerror.c
+[ 75%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strdup.c.obj[0m
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/strdup.c.obj -MF CMakeFiles/rcutils.dir/src/strdup.c.obj.d -o CMakeFiles/rcutils.dir/src/strdup.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/strdup.c
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/string_array.c.obj -MF CMakeFiles/rcutils.dir/src/string_array.c.obj.d -o CMakeFiles/rcutils.dir/src/string_array.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/string_array.c
+[ 75%] Built target ament_cmake_python_build_rcutils_egg
+[ 79%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_map.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/string_map.c.obj -MF CMakeFiles/rcutils.dir/src/string_map.c.obj.d -o CMakeFiles/rcutils.dir/src/string_map.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/string_map.c
+[ 82%] [32mBuilding C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj -MF CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj.d -o CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/testing/fault_injection.c
+[ 86%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/time.c.obj -MF CMakeFiles/rcutils.dir/src/time.c.obj.d -o CMakeFiles/rcutils.dir/src/time.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/time.c
+[ 89%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time_unix.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/time_unix.c.obj -MF CMakeFiles/rcutils.dir/src/time_unix.c.obj.d -o CMakeFiles/rcutils.dir/src/time_unix.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c
+[ 93%] [32mBuilding C object CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj -MF CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj.d -o CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c
+[ 96%] [32mBuilding C object CMakeFiles/rcutils.dir/src/uint8_array.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rcutils.dir/src/uint8_array.c.obj -MF CMakeFiles/rcutils.dir/src/uint8_array.c.obj.d -o CMakeFiles/rcutils.dir/src/uint8_array.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcutils/src/uint8_array.c
+[100%] [32m[1mLinking C static library librcutils.a[0m
+/usr/bin/cmake -P CMakeFiles/rcutils.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rcutils.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc librcutils.a CMakeFiles/rcutils.dir/src/allocator.c.obj CMakeFiles/rcutils.dir/src/array_list.c.obj CMakeFiles/rcutils.dir/src/char_array.c.obj CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj CMakeFiles/rcutils.dir/src/env.c.obj CMakeFiles/rcutils.dir/src/error_handling.c.obj CMakeFiles/rcutils.dir/src/filesystem.c.obj CMakeFiles/rcutils.dir/src/find.c.obj CMakeFiles/rcutils.dir/src/format_string.c.obj CMakeFiles/rcutils.dir/src/hash_map.c.obj CMakeFiles/rcutils.dir/src/logging.c.obj CMakeFiles/rcutils.dir/src/process.c.obj CMakeFiles/rcutils.dir/src/qsort.c.obj CMakeFiles/rcutils.dir/src/repl_str.c.obj CMakeFiles/rcutils.dir/src/shared_library.c.obj CMakeFiles/rcutils.dir/src/snprintf.c.obj CMakeFiles/rcutils.dir/src/split.c.obj CMakeFiles/rcutils.dir/src/strcasecmp.c.obj CMakeFiles/rcutils.dir/src/strdup.c.obj CMakeFiles/rcutils.dir/src/strerror.c.obj CMakeFiles/rcutils.dir/src/string_array.c.obj CMakeFiles/rcutils.dir/src/string_map.c.obj CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj CMakeFiles/rcutils.dir/src/time.c.obj CMakeFiles/rcutils.dir/src/time_unix.c.obj CMakeFiles/rcutils.dir/src/uint8_array.c.obj CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj
+/usr/bin/arm-none-eabi-ranlib librcutils.a
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+[100%] Built target rcutils
+gmake[1]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles 0
+-- Install configuration: "Release"
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/pythonpath.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/pythonpath.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils-5.1.4-py3.10.egg-info
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils-5.1.4-py3.10.egg-info/top_level.txt
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils-5.1.4-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils-5.1.4-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils-5.1.4-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils/__init__.py
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils/logging.py
+Listing '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils'...
+Compiling '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils/__init__.py'...
+Compiling '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/local/lib/python3.10/dist-packages/rcutils/logging.py'...
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/librcutils.a
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/library_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/library_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rcutils
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rcutils
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/ament_prefix_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/ament_prefix_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/environment/path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/local_setup.bash
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/local_setup.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/local_setup.zsh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/local_setup.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/package.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rcutils
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsExport.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsExport-release.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig-version.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/package.xml
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/shared_library.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/split.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/cmdline_parser.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/visibility_control.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/stdatomic_helper.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/visibility_control_macros.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/stdatomic_helper
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/stdatomic_helper/win32
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/stdatomic_helper/gcc
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/qsort.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/strdup.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/process.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/strerror.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/rcutils_ret.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/uint8_array.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/string_array.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/string_map.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/array_list.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/hash_map.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/char_array.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/testing
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/testing/fault_injection.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/find.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/error_handling.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/security_directory.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/repl_str.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/allocator.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/get_env.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/macros.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/time.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/strcasecmp.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/isalnum_no_locale.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/snprintf.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/env.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/format_string.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/configuration_flags.h.in
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/logging.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/filesystem.h
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/configuration_flags.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils/rcutils/logging_macros.h

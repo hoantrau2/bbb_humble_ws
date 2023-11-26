@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc librosidl_runtime_c.a CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.obj CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.obj CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.obj CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.obj CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.obj CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.obj
+/usr/bin/arm-none-eabi-ranlib librosidl_runtime_c.a

@@ -1,0 +1,66 @@
+[0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+  CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+  CMakeLists.txt:3 (project)
+
+[0m
+[0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl_interfaces/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_typesupport_introspection_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_cConfig.cmake:41 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+
+[0m

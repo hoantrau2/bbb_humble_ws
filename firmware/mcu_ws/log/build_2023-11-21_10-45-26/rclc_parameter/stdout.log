@@ -1,0 +1,77 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rcl: 5.3.6 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcl/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 3.1.5 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_microxrcedds: 3.0.2 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake)
+-- Using RMW implementation 'rmw_microxrcedds'
+-- Found rclc: 4.0.2 (/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter
+/usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter'
+/usr/bin/gmake  -f CMakeFiles/rclc_parameter.dir/build.make CMakeFiles/rclc_parameter.dir/depend
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter'
+cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/rclc_parameter.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter'
+/usr/bin/gmake  -f CMakeFiles/rclc_parameter.dir/build.make CMakeFiles/rclc_parameter.dir/build
+gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter'
+[ 33%] [32mBuilding C object CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_server.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCLC_PARAMETER_BUILDING_LIBRARY -DRCLC_PARAMETER_MAX_STRING_LENGTH=50 -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter/src -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/builtin_interfaces -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl_interfaces -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_introspection_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl_logging_interface -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rmw -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl_action -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/action_msgs -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/unique_identifier_msgs -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_server.c.obj -MF CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_server.c.obj.d -o CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_server.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter/src/rclc_parameter/parameter_server.c
+[ 66%] [32mBuilding C object CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_utils.c.obj[0m
+/usr/bin/arm-none-eabi-gcc -DRCLC_PARAMETER_BUILDING_LIBRARY -DRCLC_PARAMETER_MAX_STRING_LENGTH=50 -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter/src -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcutils -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/builtin_interfaces -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl_interfaces -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_runtime_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rosidl_typesupport_introspection_c -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl_logging_interface -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rmw -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/tracetools -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rcl_action -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/action_msgs -isystem /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/unique_identifier_msgs -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -Wall -Wextra -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_utils.c.obj -MF CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_utils.c.obj.d -o CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_utils.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rclc/rclc_parameter/src/rclc_parameter/parameter_utils.c
+[100%] [32m[1mLinking CXX static library librclc_parameter.a[0m
+/usr/bin/cmake -P CMakeFiles/rclc_parameter.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rclc_parameter.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc librclc_parameter.a CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_server.c.obj CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_utils.c.obj
+/usr/bin/arm-none-eabi-ranlib librclc_parameter.a
+gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter'
+[100%] Built target rclc_parameter
+gmake[1]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter'
+/usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles 0
+-- Install configuration: "Release"
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/librclc_parameter.a
+-- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rclc_parameter
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rclc_parameter/visibility_control.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/rclc_parameter/rclc_parameter.h
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/environment/library_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/environment/library_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rclc_parameter
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rclc_parameter
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/environment/ament_prefix_path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/environment/ament_prefix_path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/environment/path.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/environment/path.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/local_setup.bash
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/local_setup.sh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/local_setup.zsh
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/local_setup.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/package.dsv
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rclc_parameter
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/rclc_parameterExport.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/rclc_parameterExport-release.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/rclc_parameterConfig.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/cmake/rclc_parameterConfig-version.cmake
+-- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rclc_parameter/package.xml

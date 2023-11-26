@@ -1,0 +1,285 @@
+[0.417s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/libyaml_vendor --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install
+[0.429s] Not searching for unused variables given on the command line.
+[0.448s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.448s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.449s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.449s] Call Stack (most recent call first):
+[0.449s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.449s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[0.449s]   CMakeLists.txt:3 (project)
+[0.449s] 
+[0.449s] [0m
+[0.450s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.450s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.450s] Call Stack (most recent call first):
+[0.451s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.451s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[0.451s]   CMakeLists.txt:3 (project)
+[0.451s] 
+[0.451s] [0m
+[0.635s] -- The C compiler identification is GNU 10.3.1
+[0.950s] -- The CXX compiler identification is GNU 10.3.1
+[0.973s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[0.973s] -- Detecting C compiler ABI info
+[0.973s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.973s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[0.973s] Call Stack (most recent call first):
+[0.975s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[0.975s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.975s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[0.975s] 
+[0.975s] [0m
+[0.976s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[0.976s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[0.976s] Call Stack (most recent call first):
+[0.976s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[0.976s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[0.976s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[0.976s] 
+[0.976s] [0m
+[1.241s] -- Detecting C compiler ABI info - done
+[1.248s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+[1.248s] -- Detecting C compile features
+[1.249s] -- Detecting C compile features - done
+[1.251s] -- Detecting CXX compiler ABI info
+[1.252s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[1.252s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[1.252s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[1.252s] Call Stack (most recent call first):
+[1.252s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[1.252s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[1.252s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[1.253s] 
+[1.253s] [0m
+[1.253s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[1.253s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[1.253s] Call Stack (most recent call first):
+[1.253s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[1.253s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[1.253s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[1.253s] 
+[1.254s] [0m
+[1.329s] -- Detecting CXX compiler ABI info - done
+[1.333s] -- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+[1.333s] -- Detecting CXX compile features
+[1.334s] -- Detecting CXX compile features - done
+[1.337s] -- Found ament_cmake: 1.3.6 (/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+[1.532s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.736s] -- Configuring done
+[1.740s] -- Generating done
+[1.741s] -- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor
+[2.168s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/libyaml_vendor --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install
+[2.168s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor -- -j8 -l8
+[2.186s] /usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/libyaml_vendor -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor --check-build-system CMakeFiles/Makefile.cmake 0
+[2.195s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor//CMakeFiles/progress.marks
+[2.205s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[2.206s] gmake[1]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor'
+[2.206s] /usr/bin/gmake  -f CMakeFiles/libyaml-0.2.5.dir/build.make CMakeFiles/libyaml-0.2.5.dir/depend
+[2.208s] gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor'
+[2.208s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/libyaml_vendor /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/libyaml_vendor /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-0.2.5.dir/DependInfo.cmake --color=
+[2.222s] gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor'
+[2.222s] /usr/bin/gmake  -f CMakeFiles/libyaml-0.2.5.dir/build.make CMakeFiles/libyaml-0.2.5.dir/build
+[2.223s] gmake[2]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor'
+[2.238s] [ 12%] [34m[1mCreating directories for 'libyaml-0.2.5'[0m
+[2.239s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5
+[2.248s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build
+[2.259s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix
+[2.264s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/tmp
+[2.269s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp
+[2.279s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src
+[2.285s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp
+[2.292s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-mkdir
+[2.305s] [ 25%] [34m[1mPerforming download step (git clone) for 'libyaml-0.2.5'[0m
+[2.306s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src && /usr/bin/cmake -P /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/tmp/libyaml-0.2.5-gitclone.cmake
+[2.322s] Cloning into 'libyaml-0.2.5'...
+[4.985s] HEAD is now at 2c891fc Changes for v0.2.5 release
+[5.011s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src && /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-download
+[5.024s] [ 37%] [34m[1mNo update step for 'libyaml-0.2.5'[0m
+[5.024s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 && /usr/bin/cmake -E echo_append
+[5.031s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 && /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-update
+[5.045s] [ 50%] [34m[1mPerforming patch step for 'libyaml-0.2.5'[0m
+[5.046s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 && /usr/bin/cmake -E chdir /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 git apply -p1 --ignore-space-change --whitespace=nowarn /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/libyaml_vendor/0001-Install-yaml.h-to-INSTALL_INCLUDE_DIR.patch
+[5.055s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 && /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-patch
+[5.068s] [ 62%] [34m[1mPerforming configure step for 'libyaml-0.2.5'[0m
+[5.069s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install -DINSTALL_INCLUDE_DIR:STRING=include/libyaml_vendor -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF "-DCMAKE_C_FLAGS=-std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)='" -DCMAKE_TOOLCHAIN_FILE=/home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake "-GUnix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5
+[5.076s] Re-run cmake no build system arguments
+[5.081s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[5.081s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[5.081s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[5.081s] Call Stack (most recent call first):
+[5.081s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[5.081s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[5.081s]   CMakeLists.txt:3 (project)
+[5.081s] 
+[5.081s] [0m
+[5.082s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[5.082s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[5.082s] Call Stack (most recent call first):
+[5.082s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[5.082s]   /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+[5.082s]   CMakeLists.txt:3 (project)
+[5.083s] 
+[5.083s] [0m
+[5.226s] -- The C compiler identification is GNU 10.3.1
+[5.234s] -- Detecting C compiler ABI info
+[5.236s] [0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[5.236s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[5.236s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+[5.236s] Call Stack (most recent call first):
+[5.236s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+[5.236s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[5.236s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[5.236s] 
+[5.236s] [0m
+[5.236s] [33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+[5.236s]   PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+[5.237s] Call Stack (most recent call first):
+[5.237s]   /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+[5.237s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+[5.237s]   /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+[5.237s] 
+[5.237s] [0m
+[5.324s] -- Detecting C compiler ABI info - done
+[5.331s] -- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+[5.331s] -- Detecting C compile features
+[5.332s] -- Detecting C compile features - done
+[5.333s] [33mCMake Warning (dev) at CMakeLists.txt:56 (add_library):
+[5.333s]   ADD_LIBRARY called with SHARED option but the target platform does not
+[5.333s]   support dynamic linking.  Building a STATIC library instead.  This may lead
+[5.333s]   to problems.
+[5.333s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.333s] [0m
+[5.334s] -- Configuring done
+[5.337s] -- Generating done
+[5.338s] -- Build files have been written to: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build
+[5.342s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-configure
+[5.358s] [ 75%] [34m[1mPerforming build step for 'libyaml-0.2.5'[0m
+[5.358s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/gmake
+[5.360s] gmake[3]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[5.360s] /usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build --check-build-system CMakeFiles/Makefile.cmake 0
+[5.367s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build//CMakeFiles/progress.marks
+[5.374s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[5.376s] gmake[4]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[5.376s] /usr/bin/gmake  -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/depend
+[5.377s] gmake[5]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[5.377s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/DependInfo.cmake --color=
+[5.384s] gmake[5]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[5.384s] /usr/bin/gmake  -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/build
+[5.385s] gmake[5]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[5.394s] [ 22%] [32mBuilding C object CMakeFiles/yaml.dir/src/dumper.c.obj[0m
+[5.394s] [ 22%] [32mBuilding C object CMakeFiles/yaml.dir/src/api.c.obj[0m
+[5.395s] [ 44%] [32mBuilding C object CMakeFiles/yaml.dir/src/parser.c.obj[0m
+[5.395s] [ 44%] [32mBuilding C object CMakeFiles/yaml.dir/src/emitter.c.obj[0m
+[5.395s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/dumper.c.obj -MF CMakeFiles/yaml.dir/src/dumper.c.obj.d -o CMakeFiles/yaml.dir/src/dumper.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/dumper.c
+[5.396s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/api.c.obj -MF CMakeFiles/yaml.dir/src/api.c.obj.d -o CMakeFiles/yaml.dir/src/api.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/api.c
+[5.396s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/parser.c.obj -MF CMakeFiles/yaml.dir/src/parser.c.obj.d -o CMakeFiles/yaml.dir/src/parser.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/parser.c
+[5.397s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/emitter.c.obj -MF CMakeFiles/yaml.dir/src/emitter.c.obj.d -o CMakeFiles/yaml.dir/src/emitter.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/emitter.c
+[5.399s] [ 55%] [32mBuilding C object CMakeFiles/yaml.dir/src/loader.c.obj[0m
+[5.399s] [ 66%] [32mBuilding C object CMakeFiles/yaml.dir/src/reader.c.obj[0m
+[5.400s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/reader.c.obj -MF CMakeFiles/yaml.dir/src/reader.c.obj.d -o CMakeFiles/yaml.dir/src/reader.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/reader.c
+[5.400s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/loader.c.obj -MF CMakeFiles/yaml.dir/src/loader.c.obj.d -o CMakeFiles/yaml.dir/src/loader.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/loader.c
+[5.405s] [ 77%] [32mBuilding C object CMakeFiles/yaml.dir/src/writer.c.obj[0m
+[5.406s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/writer.c.obj -MF CMakeFiles/yaml.dir/src/writer.c.obj.d -o CMakeFiles/yaml.dir/src/writer.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/writer.c
+[5.420s] [ 88%] [32mBuilding C object CMakeFiles/yaml.dir/src/scanner.c.obj[0m
+[5.422s] /usr/bin/arm-none-eabi-gcc -DHAVE_CONFIG_H -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/include -I/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/include -std=c11 -O2 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -MD -MT CMakeFiles/yaml.dir/src/scanner.c.obj -MF CMakeFiles/yaml.dir/src/scanner.c.obj.d -o CMakeFiles/yaml.dir/src/scanner.c.obj -c /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/scanner.c
+[5.432s] [01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/api.c:[m[K In function '[01m[Kyaml_strdup[m[K':
+[5.432s] [01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5/src/api.c:66:27:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kstrdup[m[K'; did you mean '[01m[Kstrcmp[m[K'? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[5.432s]    66 |     return (yaml_char_t *)[01;35m[Kstrdup[m[K((char *)str);
+[5.433s]       |                           [01;35m[K^~~~~~[m[K
+[5.433s]       |                           [32m[Kstrcmp[m[K
+[7.210s] [100%] [32m[1mLinking C static library libyaml.a[0m
+[7.212s] /usr/bin/cmake -P CMakeFiles/yaml.dir/cmake_clean_target.cmake
+[7.219s] /usr/bin/cmake -E cmake_link_script CMakeFiles/yaml.dir/link.txt --verbose=1
+[7.224s] /usr/bin/arm-none-eabi-ar qc libyaml.a CMakeFiles/yaml.dir/src/api.c.obj CMakeFiles/yaml.dir/src/dumper.c.obj CMakeFiles/yaml.dir/src/emitter.c.obj CMakeFiles/yaml.dir/src/loader.c.obj CMakeFiles/yaml.dir/src/parser.c.obj CMakeFiles/yaml.dir/src/reader.c.obj CMakeFiles/yaml.dir/src/scanner.c.obj CMakeFiles/yaml.dir/src/writer.c.obj
+[7.249s] /usr/bin/arm-none-eabi-ranlib libyaml.a
+[7.270s] gmake[5]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.278s] [100%] Built target yaml
+[7.279s] gmake[4]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.279s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles 0
+[7.289s] gmake[3]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.289s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-build
+[7.308s] [ 87%] [34m[1mPerforming install step for 'libyaml-0.2.5'[0m
+[7.309s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/gmake install
+[7.312s] gmake[3]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.312s] /usr/bin/cmake -S/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 -B/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build --check-build-system CMakeFiles/Makefile.cmake 0
+[7.319s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build//CMakeFiles/progress.marks
+[7.327s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[7.328s] gmake[4]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.328s] /usr/bin/gmake  -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/depend
+[7.329s] gmake[5]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.329s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5 /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/DependInfo.cmake --color=
+[7.339s] Dependencies file "CMakeFiles/yaml.dir/src/api.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.340s] Dependencies file "CMakeFiles/yaml.dir/src/dumper.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.340s] Dependencies file "CMakeFiles/yaml.dir/src/emitter.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.340s] Dependencies file "CMakeFiles/yaml.dir/src/loader.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.340s] Dependencies file "CMakeFiles/yaml.dir/src/parser.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.341s] Dependencies file "CMakeFiles/yaml.dir/src/reader.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.341s] Dependencies file "CMakeFiles/yaml.dir/src/scanner.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.341s] Dependencies file "CMakeFiles/yaml.dir/src/writer.c.obj.d" is newer than depends file "/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir/compiler_depend.internal".
+[7.341s] [35m[1mConsolidate compiler generated dependencies of target yaml[0m
+[7.342s] gmake[5]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.342s] /usr/bin/gmake  -f CMakeFiles/yaml.dir/build.make CMakeFiles/yaml.dir/build
+[7.344s] gmake[5]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.345s] gmake[5]: Nothing to be done for 'CMakeFiles/yaml.dir/build'.
+[7.345s] gmake[5]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.351s] [100%] Built target yaml
+[7.352s] gmake[4]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.352s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles 0
+[7.360s] /usr/bin/gmake  -f CMakeFiles/Makefile2 preinstall
+[7.361s] gmake[4]: Entering directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.361s] gmake[4]: Nothing to be done for 'preinstall'.
+[7.361s] gmake[4]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.369s] [36mInstall the project...[0m
+[7.370s] /usr/bin/cmake -P cmake_install.cmake
+[7.376s] -- Install configuration: "Release"
+[7.377s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/include/libyaml_vendor/yaml.h
+[7.377s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.a
+[7.377s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
+[7.377s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
+[7.377s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-release.cmake
+[7.378s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake
+[7.379s] gmake[3]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build'
+[7.380s] cd /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build && /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-install
+[7.395s] [100%] [34m[1mCompleted 'libyaml-0.2.5'[0m
+[7.396s] /usr/bin/cmake -E make_directory /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles
+[7.405s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-0.2.5-complete
+[7.416s] /usr/bin/cmake -E touch /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-done
+[7.425s] gmake[2]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor'
+[7.435s] [100%] Built target libyaml-0.2.5
+[7.436s] gmake[1]: Leaving directory '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor'
+[7.436s] /usr/bin/cmake -E cmake_progress_start /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles 0
+[7.473s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor -- -j8 -l8
+[7.512s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor
+[7.518s] -- Install configuration: "Release"
+[7.519s] -- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install
+[7.519s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/cmake
+[7.519s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/cmake/yamlTargets-release.cmake
+[7.519s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/cmake/yamlConfigVersion.cmake
+[7.519s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/cmake/yamlConfig.cmake
+[7.519s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/cmake/yamlTargets.cmake
+[7.519s] -- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib
+[7.519s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/libyaml.a
+[7.520s] -- Up-to-date: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include
+[7.520s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/libyaml_vendor
+[7.520s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/include/libyaml_vendor/yaml.h
+[7.520s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/environment/library_path.sh
+[7.521s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/environment/library_path.dsv
+[7.521s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/libyaml_vendor
+[7.521s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/libyaml_vendor
+[7.521s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/environment/ament_prefix_path.sh
+[7.521s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/environment/ament_prefix_path.dsv
+[7.521s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/environment/path.sh
+[7.522s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/environment/path.dsv
+[7.522s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.bash
+[7.524s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.sh
+[7.524s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.zsh
+[7.525s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/local_setup.dsv
+[7.525s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/package.dsv
+[7.525s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/libyaml_vendor
+[7.525s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/cmake/libyaml_vendor-extras.cmake
+[7.525s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/cmake/ament_cmake_export_libraries-extras.cmake
+[7.525s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.527s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/cmake/libyaml_vendorConfig.cmake
+[7.527s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/cmake/libyaml_vendorConfig-version.cmake
+[7.527s] -- Installing: /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/libyaml_vendor/package.xml
+[7.528s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_uncrustify:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/domain_coordinator:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_xmllint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pyflakes:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pep257:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_pclint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_package:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_mypy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_flake8:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_copyright:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_lint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_index_python:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cpplint:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_cppcheck:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/libyaml_vendor

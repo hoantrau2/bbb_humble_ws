@@ -1,0 +1,12 @@
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/uninstall.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils_uninstall.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_copy_rcutils.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_build_rcutils_egg.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/test.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/edit_cache.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/rebuild_cache.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/list_install_components.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/install.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/install/local.dir
+/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/install/strip.dir

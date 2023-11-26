@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libbbb_interfaces__rosidl_typesupport_introspection_c.a CMakeFiles/bbb_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bbb_interfaces/msg/detail/bbb__type_support.c.obj
+/usr/bin/arm-none-eabi-ranlib libbbb_interfaces__rosidl_typesupport_introspection_c.a

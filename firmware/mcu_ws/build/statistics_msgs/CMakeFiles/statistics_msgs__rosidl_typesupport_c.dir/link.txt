@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libstatistics_msgs__rosidl_typesupport_c.a CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/metrics_message__type_support.cpp.obj CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_point__type_support.cpp.obj CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_type__type_support.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libstatistics_msgs__rosidl_typesupport_c.a

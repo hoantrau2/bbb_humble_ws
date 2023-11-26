@@ -1,0 +1,79 @@
+[1.745s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli': PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed
+[2.101s] running egg_info
+[2.103s] creating ../../../build/rosidl_cli/rosidl_cli.egg-info
+[2.103s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[2.103s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[2.104s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[2.104s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[2.104s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[2.105s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[2.107s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[2.109s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[2.109s] running build
+[2.109s] running build_py
+[2.109s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build
+[2.109s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib
+[2.110s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[2.110s] copying rosidl_cli/extensions.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[2.110s] copying rosidl_cli/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[2.110s] copying rosidl_cli/entry_points.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[2.110s] copying rosidl_cli/common.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[2.110s] copying rosidl_cli/cli.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[2.110s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[2.110s] copying rosidl_cli/command/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[2.111s] copying rosidl_cli/command/helpers.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[2.111s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[2.111s] copying rosidl_cli/command/generate/extensions.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[2.111s] copying rosidl_cli/command/generate/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[2.111s] copying rosidl_cli/command/generate/api.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[2.112s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[2.112s] copying rosidl_cli/command/translate/extensions.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[2.112s] copying rosidl_cli/command/translate/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[2.112s] copying rosidl_cli/command/translate/api.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[2.120s] running install
+[2.120s] running install_lib
+[2.121s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/extensions.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/entry_points.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/common.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[2.121s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[2.121s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/extensions.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[2.121s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/api.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[2.122s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[2.122s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/extensions.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[2.122s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[2.122s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/api.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[2.122s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/helpers.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[2.122s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/cli.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[2.122s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/extensions.py to extensions.cpython-310.pyc
+[2.122s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/__init__.py to __init__.cpython-310.pyc
+[2.122s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/entry_points.py to entry_points.cpython-310.pyc
+[2.122s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.122s]   warnings.warn(
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/common.py to common.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/__init__.py to __init__.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/extensions.py to extensions.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/__init__.py to __init__.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/api.py to api.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/extensions.py to extensions.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/__init__.py to __init__.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/api.py to api.cpython-310.pyc
+[2.123s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/helpers.py to helpers.cpython-310.pyc
+[2.124s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/cli.py to cli.cpython-310.pyc
+[2.125s] running install_data
+[2.125s] copying resource/rosidl_cli -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[2.126s] copying package.xml -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_cli
+[2.126s] copying resource/package.dsv -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_cli
+[2.126s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[2.126s] copying completion/rosidl-argcomplete.bash -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[2.126s] copying completion/rosidl-argcomplete.zsh -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[2.127s] running install_egg_info
+[2.129s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli-3.1.5-py3.10.egg-info
+[2.131s] running install_scripts
+[2.165s] Installing rosidl script to /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/bin
+[2.166s] writing list of installed files to '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/install.log'
+[2.311s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed

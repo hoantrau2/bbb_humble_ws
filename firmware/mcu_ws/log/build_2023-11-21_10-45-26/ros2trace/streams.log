@@ -1,0 +1,45 @@
+[1.283s] Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/tracetools/ros2trace': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed
+[1.708s] running egg_info
+[1.709s] creating ../../../build/ros2trace/ros2trace.egg-info
+[1.709s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[1.709s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[1.709s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[1.709s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[1.709s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[1.710s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.713s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.720s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.720s] running build
+[1.720s] running build_py
+[1.720s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build
+[1.720s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib
+[1.720s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.721s] copying ros2trace/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.721s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.721s] copying ros2trace/api/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.721s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.721s] copying ros2trace/command/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.721s] copying ros2trace/command/trace.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.721s] running install
+[1.722s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.722s]   warnings.warn(
+[1.722s] running install_lib
+[1.723s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[1.723s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[1.724s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[1.724s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[1.724s] creating /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.724s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.724s] copying /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/trace.py -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.726s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api/__init__.py to __init__.cpython-310.pyc
+[1.726s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/__init__.py to __init__.cpython-310.pyc
+[1.726s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/__init__.py to __init__.cpython-310.pyc
+[1.726s] byte-compiling /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/trace.py to trace.cpython-310.pyc
+[1.727s] running install_data
+[1.729s] copying package.xml -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ros2trace
+[1.730s] copying resource/ros2trace -> /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.730s] running install_egg_info
+[1.732s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info
+[1.733s] running install_scripts
+[1.768s] writing list of installed files to '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/install.log'
+[2.002s] Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/tracetools/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed

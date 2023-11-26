@@ -1,0 +1,146 @@
+[0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+  CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:124 (include)
+  CMakeLists.txt:3 (project)
+
+[0m
+[0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[0mPICO_GCC_TRIPLE defaulted to arm-none-eabi[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-gcc not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:18 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/micro_ros_ws/src/pico-sdk/cmake/preload/toolchains/find_compiler.cmake:22 (message):
+  PICO_TOOLCHAIN_PATH specified (...), but arm-none-eabi-g++ not found there
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/my_custom_toolchain.cmake:19 (pico_find_compiler)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/3.22.1/CMakeSystem.cmake:6 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/build/rcl/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+[0m
+[33mCMake Warning at /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ngochoan/bbb_humble_ws/firmware/mcu_ws/install/share/rcl_interfaces/cmake/rcl_interfacesConfig.cmake:41 (include)
+  CMakeLists.txt:10 (find_package)
+
+[0m
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:[m[K In function '[01m[Krcl_init_options_copy[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:108:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  108 |     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:[m[K In function '[01m[K__validate_network_flow_endpoint_array[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:43:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   43 |   rmw_error_string_t [01;35m[Kerror_string[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:[m[K In function '[01m[Krcl_publisher_get_network_flow_endpoints[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:75:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   75 |   rmw_error_string_t [01;35m[Kerror_string[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:[m[K In function '[01m[Krcl_subscription_get_network_flow_endpoints[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:106:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  106 |   rmw_error_string_t [01;35m[Kerror_string[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function '[01m[Krcl_node_init[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:166:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  166 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:198:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  198 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:[m[K In function '[01m[Krcl_resolve_name[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:49:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   49 |     rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:97:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   97 |     const char * [01;35m[Kerror[m[K = rmw_get_error_string().str;
+      |                  [01;35m[K^~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:114:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  114 |     rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:33:27:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Klocal_args[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   33 |   [01;35m[Kconst rcl_arguments_t * local_args[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:34:27:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kglobal_args[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 |   [01;35m[Kconst rcl_arguments_t * global_args[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:40:8:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Konly_expand[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 |   bool [01;35m[Ko[m[Knly_expand,
+      |        [01;35m[K^[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:[m[K In function '[01m[Krcl_rmw_implementation_identifier_check[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:136:34:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Krmw_error_msg[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  136 |     const rcutils_error_string_t [01;35m[Krmw_error_msg[m[K = rcl_get_error_string();
+      |                                  [01;35m[K^~~~~~~~~~~~~[m[K
+At top level:
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:168:13:[m[K [01;35m[Kwarning: [m[K'[01m[Kinitialize[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  168 | INITIALIZER([01;35m[Kinitialize[m[K) {
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:54:15:[m[K [01;36m[Knote: [m[Kin definition of macro '[01m[KINITIALIZER[m[K'
+   54 |   static void [01;36m[Kf[m[K(void)
+      |               [01;36m[K^[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K__validate_node_name_and_namespace[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:56:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   56 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:68:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   68 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K_rcl_wait_for_entities[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:524:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  524 |     rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:558:32:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  558 |         rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+      |                                [01;35m[K^~~~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K__rcl_get_info_by_topic[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:657:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  657 |   rmw_error_string_t [01;35m[Kerror_string[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:22[m[K:
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:[m[K In function '[01m[Krcl_validate_topic_name_with_size[m[K':
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:58:25:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   58 |   if (isdigit([01;35m[Ktopic_name[0][m[K) != 0) {
+      |               [01;35m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:84:27:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   84 |         isdigit([01;35m[Ktopic_name[i][m[K) != 0 &&
+      |                 [01;35m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/ngochoan/bbb_humble_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c:179:29:[m[K [01;35m[Kwarning: [m[Karray subscript has type '[01m[Kchar[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+  179 |       if (isdigit([01;35m[Ktopic_name[i + 1][m[K) != 0) {
+      |                   [01;35m[K~~~~~~~~~~^~~~~~~[m[K
