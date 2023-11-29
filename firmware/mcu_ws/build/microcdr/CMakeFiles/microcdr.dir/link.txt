@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libmicrocdr.a CMakeFiles/microcdr.dir/src/c/common.c.obj CMakeFiles/microcdr.dir/src/c/types/basic.c.obj CMakeFiles/microcdr.dir/src/c/types/string.c.obj CMakeFiles/microcdr.dir/src/c/types/array.c.obj CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
-/usr/bin/arm-none-eabi-ranlib libmicrocdr.a

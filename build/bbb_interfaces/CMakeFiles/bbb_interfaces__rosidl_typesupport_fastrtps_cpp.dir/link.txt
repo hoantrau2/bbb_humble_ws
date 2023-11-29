@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbbb_interfaces__rosidl_typesupport_fastrtps_cpp.a CMakeFiles/bbb_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bbb_interfaces/msg/detail/dds_fastrtps/bbb__type_support.cpp.o
-/usr/bin/ranlib libbbb_interfaces__rosidl_typesupport_fastrtps_cpp.a

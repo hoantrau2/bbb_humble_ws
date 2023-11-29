@@ -1,0 +1,2 @@
+Invoking command in '/home/ngochoan/bbb_humble_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/diffdrive_arduino -- -j8 -l8
+Invoked command in '/home/ngochoan/bbb_humble_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/diffdrive_arduino -- -j8 -l8

@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc librosgraph_msgs__rosidl_typesupport_microxrcedds_c.a CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_c.c.obj
-/usr/bin/arm-none-eabi-ranlib librosgraph_msgs__rosidl_typesupport_microxrcedds_c.a

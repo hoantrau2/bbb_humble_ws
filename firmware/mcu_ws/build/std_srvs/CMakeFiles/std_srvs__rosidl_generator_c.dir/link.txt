@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libstd_srvs__rosidl_generator_c.a CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c.obj CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c.obj CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c.obj
-/usr/bin/arm-none-eabi-ranlib libstd_srvs__rosidl_generator_c.a

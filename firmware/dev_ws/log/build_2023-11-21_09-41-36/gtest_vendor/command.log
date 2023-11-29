@@ -1,6 +1,0 @@
-Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/gtest_vendor
-Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/ngochoan/bbb_humble_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/firmware/dev_ws/install/gtest_vendor
-Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor -- -j8 -l8
-Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor -- -j8 -l8
-Invoking command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor
-Invoked command in '/home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/firmware/dev_ws/build/gtest_vendor

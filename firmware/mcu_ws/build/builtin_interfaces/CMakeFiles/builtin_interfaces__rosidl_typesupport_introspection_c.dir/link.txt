@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libbuiltin_interfaces__rosidl_typesupport_introspection_c.a CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.obj CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.obj
-/usr/bin/arm-none-eabi-ranlib libbuiltin_interfaces__rosidl_typesupport_introspection_c.a

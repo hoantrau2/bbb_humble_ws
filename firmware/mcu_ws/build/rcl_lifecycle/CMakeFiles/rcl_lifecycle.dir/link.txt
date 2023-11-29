@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc librcl_lifecycle.a CMakeFiles/rcl_lifecycle.dir/src/com_interface.c.obj CMakeFiles/rcl_lifecycle.dir/src/default_state_machine.c.obj CMakeFiles/rcl_lifecycle.dir/src/rcl_lifecycle.c.obj CMakeFiles/rcl_lifecycle.dir/src/transition_map.c.obj
-/usr/bin/arm-none-eabi-ranlib librcl_lifecycle.a

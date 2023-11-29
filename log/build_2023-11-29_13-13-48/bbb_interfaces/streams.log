@@ -1,0 +1,23 @@
+[0.304s] Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_interfaces -- -j8 -l8
+[0.361s] [  3%] Built target bbb_interfaces__cpp
+[0.405s] [  3%] Built target ament_cmake_python_copy_bbb_interfaces
+[0.435s] [ 12%] Built target bbb_interfaces__rosidl_typesupport_introspection_cpp
+[0.738s] running egg_info
+[0.739s] writing bbb_interfaces.egg-info/PKG-INFO
+[0.739s] writing dependency_links to bbb_interfaces.egg-info/dependency_links.txt
+[0.739s] writing top-level names to bbb_interfaces.egg-info/top_level.txt
+[0.743s] reading manifest file 'bbb_interfaces.egg-info/SOURCES.txt'
+[0.743s] writing manifest file 'bbb_interfaces.egg-info/SOURCES.txt'
+[0.770s] [ 12%] Built target ament_cmake_python_build_bbb_interfaces_egg
+[0.812s] [ 22%] Built target bbb_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.844s] [ 32%] Built target bbb_interfaces__rosidl_typesupport_cpp
+[0.869s] [ 41%] Built target bbb_interfaces__rosidl_generator_c
+[0.896s] [ 51%] Built target bbb_interfaces__rosidl_typesupport_fastrtps_c
+[0.914s] [ 61%] Built target bbb_interfaces__rosidl_typesupport_c
+[0.933s] [ 70%] Built target bbb_interfaces__rosidl_typesupport_introspection_c
+[0.948s] [ 70%] Built target bbb_interfaces
+[0.966s] [ 74%] Built target bbb_interfaces__py
+[0.984s] [ 80%] Built target bbb_interfaces__rosidl_generator_py
+[1.002s] [ 87%] Built target bbb_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.032s] [ 93%] Built target bbb_interfaces__rosidl_typesupport_c__pyext
+[1.061s] [100%] Built target bbb_interfaces__rosidl_typesupport_introspection_c__pyext

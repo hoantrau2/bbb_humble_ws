@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libmicro_ros_utilities.a CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.obj CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.obj
-/usr/bin/arm-none-eabi-ranlib libmicro_ros_utilities.a
