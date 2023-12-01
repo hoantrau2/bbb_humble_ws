@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:584 (file):
-  file INSTALL cannot find
-  "/home/ngochoan/bbb_humble_ws/src/bbb_interfaces/scripts/create_fwws.sh":
-  No such file or directory.
-
-[0m

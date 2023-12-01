@@ -1,1 +1,0 @@
-Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_interfaces -- -j8 -l8
