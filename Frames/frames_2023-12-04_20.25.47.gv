@@ -1,8 +1,8 @@
 digraph G {
-"map" -> "odom"[label=" Broadcaster: default_authority\nAverage rate: 2520000.0\nBuffer length: 0.0\nMost recent transform: 0.2\nOldest transform: 0.2\n"];
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 7.322\nBuffer length: 4.917\nMost recent transform: 1701696347.063549\nOldest transform: 1701696342.146716\n"];
 "base_link" -> "lidar"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1701534311.3740819"[ shape=plaintext ] ;
-}->"base_link";
+"Recorded at time: 1701696347.1633925"[ shape=plaintext ] ;
+}->"odom";
 }
