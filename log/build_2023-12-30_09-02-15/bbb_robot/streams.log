@@ -1,0 +1,66 @@
+[0.055s] Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ngochoan/bbb_humble_ws/src/bbb_robot -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/install/bbb_robot
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.313s] -- Detecting CXX compile features - done
+[0.315s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.478s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.552s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.615s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.617s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.618s] -- Added test 'lint_cmake' to check CMake code style
+[0.618s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.620s] -- Added test 'xmllint' to check XML markup files
+[0.621s] -- Configuring done
+[0.623s] -- Generating done
+[0.624s] -- Build files have been written to: /home/ngochoan/bbb_humble_ws/build/bbb_robot
+[0.628s] Invoked command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ngochoan/bbb_humble_ws/src/bbb_robot -DCMAKE_INSTALL_PREFIX=/home/ngochoan/bbb_humble_ws/install/bbb_robot
+[0.635s] Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_robot -- -j8 -l8
+[0.678s] Invoked command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngochoan/bbb_humble_ws/build/bbb_robot -- -j8 -l8
+[0.704s] Invoking command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/build/bbb_robot
+[0.711s] -- Install configuration: ""
+[0.711s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config
+[0.711s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config/main.rviz
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config/twist_mux.yaml
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config/my_controllers.yaml
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config/empty.yaml
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config/gazebo_params.yaml
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/config/mapper_params_online_async.yaml
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description/robot.urdf.xacro
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description/ros2_control.xacro
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description/inertial_macros.xacro
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description/gazebo_control.xacro
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description/robot_core_four_wheel_.xacro
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description/lidar2D.xacro
+[0.712s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/description/robot_core_differential_robot.xacro
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/launch
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/launch/launch_sim.launch.py
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/launch/rsp.launch.py
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/worlds
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/worlds/empty.world
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/worlds/virtual.world
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/ament_index/resource_index/package_run_dependencies/bbb_robot
+[0.713s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/ament_index/resource_index/parent_prefix_path/bbb_robot
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/environment/ament_prefix_path.sh
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/environment/ament_prefix_path.dsv
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/environment/path.sh
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/environment/path.dsv
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/local_setup.bash
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/local_setup.sh
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/local_setup.zsh
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/local_setup.dsv
+[0.714s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/package.dsv
+[0.715s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/ament_index/resource_index/packages/bbb_robot
+[0.715s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/cmake/bbb_robotConfig.cmake
+[0.715s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/cmake/bbb_robotConfig-version.cmake
+[0.715s] -- Installing: /home/ngochoan/bbb_humble_ws/install/bbb_robot/share/bbb_robot/package.xml
+[0.717s] Invoked command in '/home/ngochoan/bbb_humble_ws/build/bbb_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngochoan/bbb_humble_ws/build/bbb_robot
